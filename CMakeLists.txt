@@ -7,6 +7,8 @@ set(SOURCES
 
 include_directories(include)
 
+set(SFML_DIR "C:/SFML/build")
+
 find_package(SFML COMPONENTS graphics window system audio REQUIRED)
 
 add_executable(Game1 ${SOURCES})
